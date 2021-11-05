@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/tv_name"
+            android:textColor="#000"
+            android:text="少时诵诗书所所所所所所所所所所所所所所所所所所所所所所所所"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textSize="14sp"
+            android:id="@+id/tv_time"
+            android:text="少时诵诗书所所所所所所所所所所所所所所所所所所所所所所所所"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/iv_delete"
+        android:src="@drawable/delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp">
+    </ImageView>
+</LinearLayout>
